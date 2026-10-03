@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Disproof of the lower-bound conjecture in OEIS A398786, with the smallest counterexample located at n = 90"
+authors:
+  - name: "ZL"
+date-released: 2026-10-03
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/MakiseKurisu816/A398786-conjecture-disproof"
+keywords:
+  - OEIS
+  - A398786
+  - A091508
+  - integer sequences
+  - counterexample
+  - number theory
+abstract: >
+  OEIS A398786 counts the starting values m for which the Cloitre map A091508 first
+  reaches 1 at step n. The entry conjectures a(n) >= prod_{k=2..n}(d(k)-1). This
+  repository contains exact-integer certificates showing the conjecture is false
+  (a(90) < P(90), a(120) < P(120), and a(n) < P(n) for 120 <= n <= 300), certificates
+  that it holds for n <= 44, fifteen new exact terms a(26)..a(40), and unbiased
+  importance-sampled estimates locating the smallest counterexample at n = 90.
